@@ -1,3 +1,3 @@
 # tennis-vision
 
-![GitHub GIF]((https://github.com/wyatt-jones931/tennis-vision/blob/main/SemanticSegmentationPoC.gif)
+![Semantic Segmentation GIF]((https://github.com/wyatt-jones931/tennis-vision/blob/main/SemanticSegmentationPoC.gif)
