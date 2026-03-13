@@ -1,0 +1,5 @@
+*.mp4
+*.pt
+frames/
+segmented_frames/
+__pycache__/
