@@ -9,3 +9,20 @@
 
 ## DINOv2 based semantic segmentation (6 segments), compared with still frame
 ![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/Semantic%20Segmentation%20Color.png?raw=true)
+
+## Project architecture (plan)
+MP4 upload
+   ↓
+Frame extraction
+   ↓
+DINO embeddings
+   ↓
+Rally classifier
+   ↓
+YOLO player detection
+   ↓
+ByteTrack player tracking
+   ↓
+TrackNet ball tracking
+   ↓
+Analytics
