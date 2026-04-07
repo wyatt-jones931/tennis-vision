@@ -57,11 +57,17 @@ def vid_to_frame(video_path, output_dir="no directory", fps = 5):
         return frames
 
 # %% Example Use (Saving to the desired directory)
-vid_to_frame(video_path = 'video_files/CornerFloorView.MP4', 
-             output_dir='frames',
+
+video_name = 'BaselineElevatedView' # Put the name of the video here
+
+vid_to_frame(video_path = f'data/video_files/{video_name}.MP4', 
+             output_dir= f'data/frames/{video_name}',
              fps = 5) # default is 5
 
 # %% Examlpe Use (Only saving to memory)
-vid_to_frame('video_files/CornerFloorView.MP4',
+
+video_name = 'CornerFloorView' # Put the name of the video here
+
+vid_to_frame(f'data/video_files/{video_name}.MP4',
              # output_dir='frames',
              fps = 5)

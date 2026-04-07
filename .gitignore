@@ -4,3 +4,5 @@ frames/
 segmented_frames/
 __pycache__/
 practice/
+*.npy
+*.jpg
