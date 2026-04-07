@@ -5,22 +5,19 @@ Created on Mon Apr  6 17:22:28 2026
 @author: wyatt
 """
 
-from yolo_test import player_positions_centered
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import gaussian_kde
 
 
-df = pd.DataFrame(player_positions_centered, columns=['x','y'])
+input_name = "BaselineElevatedView"
+df = pd.read_csv(f"data/{input_name}_tracking.csv")
 
-# Keep only bottom half
-df = df[df['y'] <= 60]
+df = df[df['real_y'] <= 60]  # NET_Y or half-court length
 
-df['x'] = df['x']
-
-x = df['x']
-y = df['y'] 
+x = df['adj_x']  # x relative to court center
+y = df['real_y']  # y in feet
 
 nbins = 300
 

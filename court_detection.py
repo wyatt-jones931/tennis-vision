@@ -14,7 +14,7 @@ Always click in this order USE DOUBLES LINES:
 import cv2
 import numpy as np
 
-video_path = "data/video_files/BaselineElevatedView.mp4"
+video_path = "data/video_files/CornerFloorView.mp4"
 
 points = []
 

@@ -6,3 +6,5 @@ __pycache__/
 practice/
 *.npy
 *.jpg
+TrackNet/  
+*.csv

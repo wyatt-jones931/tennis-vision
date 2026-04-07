@@ -64,7 +64,7 @@ vid_to_frame(video_path = f'data/video_files/{video_name}.MP4',
              output_dir= f'data/frames/{video_name}',
              fps = 5) # default is 5
 
-# %% Examlpe Use (Only saving to memory)
+# %% Example Use (Only saving to memory)
 
 video_name = 'CornerFloorView' # Put the name of the video here
 
