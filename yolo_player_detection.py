@@ -11,7 +11,7 @@ import numpy as np
 from ultralytics import YOLO
 import pandas as pd
 
-input_name = "CornerFloorView"
+input_name = "BaselineElevatedView"
 frame_dir = f"data/frames/{input_name}" 
 output_dir = f"data/output_frames/{input_name}"  
 video_name = f"data/output_video_files/{input_name}.mp4"
@@ -21,7 +21,7 @@ os.makedirs(output_dir, exist_ok=True)
 model = YOLO("yolov8n.pt")
 
 # Load homography matrix to convert image space to real space
-H = np.load("homography.npy")
+H = np.load(f"homography/homography_{input_name}.npy")
 
 # Constants
 CONF_THRESHOLD = 0.5
@@ -231,7 +231,6 @@ for filename in frame_files:
                 "real_x": real_x,
                 "real_y": real_y,
                 "adj_x": adj_x,
-                "speed_ft_s": smoothed_speed,
                 "speed_mph": speed_mph,
                 "total_distance": total_distance
             })
@@ -246,18 +245,17 @@ for filename in frame_files:
         
             text_x = x1
             text_y = y1 - 10  # 10 pixels above top-left of bbox
-        
-            # Display distance
-            cv2.putText(frame,
-                        f"Distance: {total_distance:.1f} ft",
+            
+            # Display current distance from center court ft
+            cv2.putText(frame, 
+                        f"X Dist.: {adj_x:.1f} ft, Y Dist.: {real_y:.1f} ft",
                         (text_x, text_y),
-                        cv2.FONT_HERSHEY_SIMPLEX,
+                        cv2.FONT_HERSHEY_COMPLEX,
                         1,
                         (0, 255, 255),
                         2)
-        
+
             # Display speed (mph)
-            speed_mph = smoothed_speed * 0.681818
             cv2.putText(frame,
                         f"Speed: {speed_mph:.1f} mph",
                         (text_x, text_y - 30),

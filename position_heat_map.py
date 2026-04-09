@@ -83,9 +83,11 @@ ax.add_patch(plt.Rectangle(
 # Center service line
 ax.plot([0, 0], [service_line, net], color='white', linewidth=1)
 
-ax.set_xlabel('Distance From Center of Court (ft)')
-ax.set_ylabel('Distance From Baseline (ft)')
-ax.set_title("Heatmap of Player's Percent of Time at Court Position")
+ax.tick_params(axis='both', labelsize=16)
+
+ax.set_xlabel('Distance From Center (ft)', fontsize = 30)
+ax.set_ylabel('Distance From Baseline (ft)', fontsize = 30)
+ax.set_title("Heatmap of Player's Court Position", fontsize = 30)
 
 
 plt.show()

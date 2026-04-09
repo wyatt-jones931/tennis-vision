@@ -14,7 +14,8 @@ Always click in this order USE DOUBLES LINES:
 import cv2
 import numpy as np
 
-video_path = "data/video_files/CornerFloorView.mp4"
+input_name = "BaselineElevatedView"
+video_path = f"data/video_files/{input_name}.mp4"
 
 points = []
 
@@ -79,6 +80,6 @@ court_points_real = np.array([
 
 H, _ = cv2.findHomography(court_points_pixel, court_points_real)
 
-np.save("homography.npy", H)
+np.save(f"homography/homography_{input_name}.npy", H)
 
 print("✅ Homography saved!")
