@@ -6,8 +6,10 @@
 ## Post-processing video
 ![Post-Processing Video](https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif)
 
+<p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif" width="500"><p>
+
 ## Player position heatmap
-![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/TennisVisionHeatMap.png?raw=true)
+![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/SemanticSegmentationColor.png?raw=true)
 
 # Original DINOv2 Based Version
 
