@@ -1,12 +1,10 @@
 # tennis-vision
 
 ## Pre-processing video
-![Pre-Processing Video](https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPre.gif)
+<p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPre.gif"><p>
 
 ## Post-processing video
-![Post-Processing Video](https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif)
-
-<p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif" width="500"><p>
+<p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif"><p>
 
 ## Player position heatmap
 ![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/SemanticSegmentationColor.png?raw=true)
