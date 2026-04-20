@@ -1,13 +1,13 @@
 # tennis-vision
 
-## Pre-processing video
+## Pre-Processing Video
 <p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPre.gif"><p>
 
-## Post-processing video
+## Post-Processing Video
 <p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif"><p>
 
-## Player position heatmap
-![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/SemanticSegmentationColor.png?raw=true)
+## Player Position Heatmap
+![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/TennisVisionHeatMap.png)
 
 # Original DINOv2 Based Version
 
@@ -18,5 +18,5 @@
 ![Semantic Segmentation GIF](https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/SemanticSegmentationPoC.gif)
 
 ## DINOv2 based semantic segmentation (6 segments), compared with still frame
-![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/SemanticSegmentationColor.png?raw=true)
+![Semantic Segmentation png](https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/SemanticSegmentationColor.png)
 
