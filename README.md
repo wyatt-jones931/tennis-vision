@@ -7,7 +7,7 @@
 <p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif"><p>
 
 ## Player Position Heatmap
-<p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPost.gif width="500"><p>
+<p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/TennisVisionHeatMap.png width="500"><p>
 
 # Original DINOv2 Based Version
 
