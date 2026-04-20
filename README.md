@@ -1,4 +1,5 @@
 # tennis-vision
+This tool was created to work with low quality, single camera, static video as shown in [this](#pre-processing-video) video. By using a user-assisted computer vision framework
 
 ## Pre-Processing Video
 <p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPre.gif"></p>
