@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['.gitignore', 'vid_to_frame.py', 'README.md', 'court_detection.py', 'position_heat_map.py', 'yolo_player_detection.py', 'data\\BaselineElevatedView_tracking.csv']
+recent_files = ['README.md', 'court_detection.py', 'yolo_player_detection.py']
 
 [main]
 version = 0.2.0

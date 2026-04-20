@@ -18,7 +18,7 @@ video_name = f"data/output_video_files/{input_name}.mp4"
 os.makedirs(output_dir, exist_ok=True)
 
 # Prep the model for player detection
-model = YOLO("yolov8n.pt")
+model = YOLO("models/yolov8n.pt")
 
 # Load homography matrix to convert image space to real space
 H = np.load(f"homography/homography_{input_name}.npy")
