@@ -1,5 +1,5 @@
 # tennis-vision
-This tool was created to work with low quality, single camera, static video as shown in [this](#pre-processing-video) video. By using a user-assisted computer vision framework
+Amateur tennis lacks accessible match analytics tools. While some exist today, they are often costly and have usage rate limitations for the user, limiting their overall usefulness. This repo is an attempt to create a tool that uses current computer vision tools to process and produce meaningful analytics from unprofessional tennis footage.
 
 ## Pre-Processing Video
 <p align="center"><img src="https://github.com/wyatt-jones931/tennis-vision/blob/main/Examples/BaselineElevatedViewPre.gif"></p>
